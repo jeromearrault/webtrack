@@ -1,0 +1,94 @@
+<!DOCTYPE html>  
+
+<html>
+    <head>
+
+        <meta charset="utf--8"/>
+        <meta name="keywords" content="association, centrale, fablab, atelier">
+        <meta name="descrption" content="Association qui met à disposition du matériel comme des imprimantes 3D, une découpeuse laser et plein d'outil pour réaliser vos projet">
+        <title> FabLab Centrale Marseille </title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+
+    <body>
+        
+        <div id="top"></div>
+
+        <div id ="introduction">
+
+            <h1> FABLAB Centrale Marseille  </h1>
+            <img src="image/logo_fab.jpg">
+            <img src="image/logo_ECM.jpg">
+
+        </div>
+        
+        <hr>
+            <h1>Présentation</h1>
+            <p> Salut à tous et bienvenue sur le site du FabLab. 
+                Pour ceux qui ne le savent pas encore, le FabLab est une association qui met 
+                à disposition tout un tas de matériel pour vous permettre de réaliser vos projets les plus fous.
+                Le FabLab est ouvert presque tout le temps, même le samedi ! 
+                Vous y trouverez des personnes qui seront là pour vous aider 
+                à utliser des machines et/ou pour vous conseiller dans des projets.
+                Si tu aimes bidouiller, que tu as des idées de projets, ou juste que tu es curieux, n'hésite pas à passer.
+                Le FabLab est un véritable labo ou vous pouvez exprimer votre créativité et votre âme d'ingénieur.    
+            </p>
+
+        <hr>
+            <h1> Actualités </h1>
+            <p> Le FabLab accueille des projets en permanence. </p>
+            <div id="actualités">
+                <h2> Le #FINEPROTECT géant</h2>
+                <img src="image/FinProtect.jpg">
+                <p> Ce projet commandé par la com' de l'école et réalisé par des 1A consistait à fabriqué un 
+                    #FINEPROTECT géant (façon Ted X) pour le colloque du 13 novembre 2019.
+                </p>
+                <h2> Le Moc </h2>
+                <img src="image/moc.jpg">
+
+
+            </div>
+
+        <hr>
+            <h1> Machines </h1>
+            <div id = "machines">
+                <div id="découpeuse_laser">
+
+                    <h2> La découpeuse laser: un incontournable</h2>
+                    <div class="img_machine">
+                        <img src="image/decoupeuse_laser.jpg">
+                    </div>
+                    <p> La découpeuse laser est un outil qui permet de découper le bois ou le plexiglas 
+                        de manière très précise en suivant un modèle prétabli sur un logiciel.
+                        C'est la machine la plus utilisée du FabLab car il est très facile de s'en servir. 
+                        C'est notamment grâce à elle qu'une grande partie des goodies de l'école sont fait. 
+                        Mais cela ne s'arrête pas là, on peut utliser cette machine pour réaliser des projets beaucoup plus complexe.
+                        Tu veux en savoir plus ou apprendre à t'en servir : <a href="decoupeuse_laser.html" target="target=_blank">découpeuse laser</a>.
+                    </p>
+
+                </div>
+
+                <div id="imprimante_3D">
+                    <h2> L'imprimante 3D </h2>
+                    <div class="img_machine">
+                        <img src="image/imprimante 3D.jpg" alt="photographie de notre imprimante 3D">
+                    </div>
+                    <p> 
+                    L'imprimante 3D te permettra de réaliser tout un tas d'objets en personnalisé et donc adaptés pour ton projet.
+                    C'est un outil qui devient incontournable dans l'industrie car ses possibilités semblent infinies.
+                    Tu veux en savoir plus ou apprendre à t'en servir : <a href="Imprimante_3D.html" target="_blank">imprimante 3D</a>. 
+                    </p>
+                
+                </div>
+            </div>
+        <hr>
+
+        <a href="#top">Revenir en haut de la page.</a>
+
+    </body>
+
+
+
+
+</html>
