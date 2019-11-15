@@ -1,0 +1,91 @@
+/*Tag*/
+p{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+h1, h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    color:green;
+    font-size:35px;
+}
+/*Intro*/
+#introduction :nth-child(2)
+{height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 1000px;
+}
+
+#introduction :nth-child(3)
+{height: 100px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+}
+
+#introduction {
+    top:0;
+    left: 100;
+}
+
+#introduction h1 {
+    text-align: center;
+    font-size: 40px;
+    color:red;
+}
+
+/*machines*/
+#machines {-webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+}
+.img_machine img{
+    height: 300px;
+    width: auto;
+}
+
+.titre_machine {color:red;}
+#machines h2 {
+    color:blueviolet;
+    font-size: 30px;
+}
+
+
+
+/*Impremante3D*/
+#imprimante_3D h2 {break-before: column;}
+
+/*actualités*/
+
+
+#actualités {-webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+}
+#actualités img{
+    height: 300px;
+    width: auto;
+}
+
+#actualités h2    
+{ color:blueviolet;
+font-size: 30px;
+}
+
+#actualités p{
+    break-after:column;
+    -moz-break-after:column;
+}
