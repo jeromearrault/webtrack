@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf--8"/>
+        <meta name="keywords" content="association, centrale, fablab, atelier">
+        <meta name="descrption" content="Association qui met à disposition du matériel comme des imprimantes 3D, une découpeuse laser et plein d'outil pour réaliser vos projet">
+        <title> FabLab Centrale Marseille </title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+    </head>
+
+    <body>
+
+        <div class="titre_machine">
+            <h1> Imprimante 3D </h1>
+        </div>
+
+        <img src="image/3Dprinter.jpg">
+
+        <div id="presentation">
+
+            <h1>Les possiblités de l'imprimante 3D</h1>
+            <p> Commençons par le concret, voici des exemples de réalisation</p>
+
+        </div>
+
+        <h1> Comment utliser une imprmante 3D ?</h1>
+
+        <div id="logiciels">
+
+            <h2> Les logicels </h2>
+
+            <div class="logciel">
+                <h3> Logiciel 1 </h3>
+            </div>
+
+            <div class="logciel">
+                <h3> Logiciel 2 </h3>
+            </div>
+
+            <div class="logciel">
+                <h3> Logiciel 3 </h3>
+            </div>
+
+        </div>
+
+        <div id ="plastiques">
+
+            <h2> Les différents types de plastique</h2>
+
+            <div class="type_plastque">
+                <h3> PLA </h3>
+            </div>
+
+            <div class="type_plastque">
+                <h3> ABS </h3>
+            </div>
+
+            <div class="type_plastque">
+                <h3> Comparatif </h3>
+                    <p>Tu ne sais toujours pas quoi choisir entre le PLA et l'ABS voi un
+                    <a href="https://www.formation-3d-france.com/comparatif-pla-et-abs/" target="_blank">lien</a>
+                    pour les comparer.
+                    </p>
+            </div>
+
+        </div>
+
+            <h2> Les consignes de sécurité </h2>
+        
+        <h1> Le rangement </h1>
+
+        <h1> La notice </h1>
+        <a href="download/test.pdf">Notice</a>
+                
+
+    </body>
+
+
+
+</html>
